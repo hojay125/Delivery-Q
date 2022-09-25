@@ -1,0 +1,89 @@
+{
+  "_from": "@burgeon8interactive/bi-react-library@0.0.41",
+  "_id": "@burgeon8interactive/bi-react-library@0.0.41",
+  "_inBundle": false,
+  "_integrity": "sha512-fTkdPjdSD0q0MYi12qMsa3F11j8hRwUg3daKCWQ7+oRd39VT3FlWhR1nEJzPIIF5oQADMr+FX/P9UQSUSclzbg==",
+  "_location": "/@burgeon8interactive/bi-react-library",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@burgeon8interactive/bi-react-library@0.0.41",
+    "name": "@burgeon8interactive/bi-react-library",
+    "escapedName": "@burgeon8interactive%2fbi-react-library",
+    "scope": "@burgeon8interactive",
+    "rawSpec": "0.0.41",
+    "saveSpec": null,
+    "fetchSpec": "0.0.41"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://npm.pkg.github.com/download/@burgeon8interactive/bi-react-library/0.0.41/3591687e420a03069160059b8c89309c57d27956ef46ddde06b6676ac2a1f83b",
+  "_shasum": "444590fddddccdca2c5a9e602c7d047f9bc9f84c",
+  "_spec": "@burgeon8interactive/bi-react-library@0.0.41",
+  "_where": "C:\\mobile apps\\AGS-Mobile-New",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Burgeon8interactive/b8i-react-library/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "npm module for node js development",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^1.0.0",
+    "@types/jest": "^26.0.2",
+    "@types/react": "^16.9.41",
+    "@types/react-native": "^0.62.13",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "prettier": "^2.0.5",
+    "react-test-renderer": "16.11.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5"
+  },
+  "homepage": "https://github.com/Burgeon8interactive/b8i-react-library#readme",
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "./src/index.tsx",
+  "name": "@burgeon8interactive/bi-react-library",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-reanimated": "*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "git://github.com/Burgeon8interactive/b8i-react-library.git"
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "build": "cp ./exampleApp/lib/main.tsx ./src/index.tsx ",
+    "ios": "react-native run-ios",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "pub": "npm publish",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "version": "0.0.41"
+}
